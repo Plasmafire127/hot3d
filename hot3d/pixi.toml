@@ -1,4 +1,4 @@
-[project]
+[workspace]
 name = "hot3d"
 version = "0.1.0"
 description = "Hot3D dataset API"
@@ -26,6 +26,9 @@ viewer = "python3 viewer.py"
 pip = "*"
 python = "==3.10"
 rerun-sdk = "~=0.16.1"
+opencv = ">=4.12.0,<5"
+imageio = ">=2.37.0,<3"
+trimesh = ">=4.11.3,<5"
 
 [pypi-dependencies]
 torch = "~=2.1.2"
